@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&family=Roboto:wght@300&display=swap');
+
+.navbar-brand a{
+  text-decoration: none;
+  color: grey;
+}
+
+.add {
+  font-size: 15px;
+}
+
+.container {
+  width: 800px;
+}
+
+.container a {
+  color: #327cbc;
+  text-decoration: none;
+}
+
+.container p {
+  color: #474a4b;
+  text-align: center;
+  font-family: roboto;
+}
+
+.container a:hover {
+  color: #22527C;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  font-family: roboto slab;
+  font-weight: 400;
+}
